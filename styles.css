@@ -1,0 +1,23 @@
+.container {
+    text-align:  center;
+    /* margin-left: 30%; */
+    /* margin-right: 30%; */
+
+}
+
+.section-1 > div {
+    text-align: start; 
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* display: inline; */
+}
+
+.section-1 >h3 {
+    text-align: center;
+}
+
+.email-box > input {
+    width: 200px;
+}

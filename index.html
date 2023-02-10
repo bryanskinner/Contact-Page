@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./main.js"></script>
+    <title>Contact Page</title>
+</head>
+<body>
+ <form action="result.html" method="GET" enctype="multipart/form-data">
+
+    <div class="container">
+
+        <h2>Contact Form</h2>
+
+     <div class="email-box">
+       <h3>Email</h3>
+       <input type="email" id="email" name="Email" placeholder="Email" required>
+     </div>
+      <br>
+
+    <div class="comments-box">
+       <h3>Comments</h3>
+       <textarea id="comments" name="comments" placeholder="Comment Section" style="height:200px" minlength="20" maxlength="500"></textarea>
+    </div>
+       <br>
+
+    <div class="section-1">
+      <h3>How Did You Hear About Me</h3>
+
+      <div>
+        <input type="checkbox" id="Classmate" name="Classmate" value="Classmate">
+        <label for="Classmate"> Classmate</label><br>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Resume" name="Resume" value="Resume">
+        <label for="Resume"> Resume Submission</label><br>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Linkedin" name="Linkedin" value="Linkedin">
+        <label for="Linkedin"> Linkedin</label><br>
+      </div>
+
+      <div>
+        <input type="checkbox" id="CA-Rec" name="CA-Rec" value="CA-Rec">
+        <label for="CA-Rec"> Coding Academy Rec</label><br>
+      </div>
+    </div>
+     
+    <div class="Section-2">
+      <h3>Would You Like To Be Contacted Back</h3>
+      <input type="radio" id="yes" name="button" value="yes">
+      <label for="yes">Yes</label>
+
+      <input type="radio" id="no" name="button" value="no">
+      <label for="no">No</label>
+    </div>
+
+    <div class="section-3">
+        <h3>Would You Like A Birthday Wish</h3>
+        <input type="date" id="birthday" name="birthday" value="birthday"><br>
+    </div>
+
+    <div class="sumbmit">
+        <input type="submit" value="Submit">
+    </div>
+
+    </div>
+ </form>   
+</body>
+</html>
